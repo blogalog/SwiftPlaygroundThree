@@ -21,3 +21,16 @@ for name in fruitNames {
 
 print(fruitNames[1])
 print(fruitNames[0])
+
+//Start of assignment #4
+
+var marvel: [Int]
+marvel = [47,22,24,1,5]
+print(marvel)
+
+for number in marvel {
+    print("My favorite number is", number)
+}
+
+let removed = marvel.remove(at: 2)
+print(marvel)
